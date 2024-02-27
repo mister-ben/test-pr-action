@@ -18,4 +18,4 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - run: npx ts-node .github/actions/pr-titlesgit com.ts
+      - run: node .github/actions/pr-titles.js
