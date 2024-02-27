@@ -18,4 +18,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - run: npm i @actions/core @actions/github
       - run: node .github/actions/pr-titles.js
